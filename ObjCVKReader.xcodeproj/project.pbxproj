@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		165BC2F97BA2FF24F8567AC4 /* libPods-ObjCVKReaderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2AA49FF74AD269C6D82FCE /* libPods-ObjCVKReaderTests.a */; };
+		D3CEB2F80C61D0158AD369C9 /* libPods-ObjCVKReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6D421A2ACACBB0449C06E81 /* libPods-ObjCVKReader.a */; };
+		E521DE9A2027C936000A213E /* NewsFeed+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E521DE982027C936000A213E /* NewsFeed+CoreDataClass.m */; };
+		E521DE9B2027C936000A213E /* NewsFeed+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E521DE992027C936000A213E /* NewsFeed+CoreDataProperties.m */; };
+		E521DE9E2027D049000A213E /* VSReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E521DE9D2027D049000A213E /* VSReachabilityManager.m */; };
+		E521DEA1202851DC000A213E /* VSScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E521DEA0202851DC000A213E /* VSScrollView.swift */; };
+		E521DEA520286540000A213E /* VSTourDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = E521DEA420286540000A213E /* VSTourDotView.m */; };
+		E521DEA720286F50000A213E /* VSPageControlHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E521DEA620286F50000A213E /* VSPageControlHelper.swift */; };
+		E536F7DE202616700066F623 /* NewsPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = E536F7DD202616700066F623 /* NewsPhoto.m */; };
+		E536F7E420272B790066F623 /* AuthControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E536F7E320272B790066F623 /* AuthControllerViewController.m */; };
+		E536F7E72027601E0066F623 /* VSNewsfeedDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E536F7E62027601E0066F623 /* VSNewsfeedDetailViewController.m */; };
+		E5B3BF252027C7AE0010EB74 /* VKReader.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5B3BF232027C7AE0010EB74 /* VKReader.xcdatamodeld */; };
+		E5F3D3F01F670E7600A2AA46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F3D3EF1F670E7600A2AA46 /* main.m */; };
+		E5F3D3F31F670E7600A2AA46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F3D3F21F670E7600A2AA46 /* AppDelegate.m */; };
+		E5F3D3F91F670E7600A2AA46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F3D3F71F670E7600A2AA46 /* Main.storyboard */; };
+		E5F3D3FE1F670E7600A2AA46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5F3D3FD1F670E7600A2AA46 /* Assets.xcassets */; };
+		E5F3D4011F670E7600A2AA46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F3D3FF1F670E7600A2AA46 /* LaunchScreen.storyboard */; };
+		E5F3D40C1F670E7600A2AA46 /* ObjCVKReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F3D40B1F670E7600A2AA46 /* ObjCVKReaderTests.m */; };
+		E5F3D41B1F671A3E00A2AA46 /* VSVKAuthenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F3D41A1F671A3E00A2AA46 /* VSVKAuthenticator.m */; };
+		E5F3D41F1F671DD800A2AA46 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F3D41E1F671DD800A2AA46 /* LoginViewController.m */; };
+		E5F3D4231F672BAF00A2AA46 /* Newsfeed.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F3D4221F672BAF00A2AA46 /* Newsfeed.m */; };
+		E5F3D4271F672DD500A2AA46 /* VSNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F3D4261F672DD500A2AA46 /* VSNewsModel.m */; };
+		E5FB4FF81F67DD930094BC73 /* VSNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5FB4FF71F67DD930094BC73 /* VSNewsViewController.m */; };
+		E5FB4FFB1F67DE070094BC73 /* VSNewsPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E5FB4FFA1F67DE070094BC73 /* VSNewsPresenter.m */; };
+		E5FB4FFD1F67E0E30094BC73 /* NewsList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5FB4FFC1F67E0E30094BC73 /* NewsList.storyboard */; };
+		E5FB50011F67E5730094BC73 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5FB50001F67E5730094BC73 /* NewsCell.m */; };
+		E5FB50041F67E7880094BC73 /* NewsCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5FB50031F67E7880094BC73 /* NewsCellModel.m */; };
+		E5FB500A1F693A190094BC73 /* LoadingIndicatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E5FB50091F693A190094BC73 /* LoadingIndicatorCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5F3D4081F670E7600A2AA46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5F3D3E31F670E7600A2AA46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5F3D3EA1F670E7600A2AA46;
+			remoteInfo = ObjCVKReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03A4D9C73D6E289D66BCF1A4 /* Pods-ObjCVKReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCVKReaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjCVKReaderTests/Pods-ObjCVKReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		11DA0D54CEED05240595839B /* Pods-ObjCVKReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCVKReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjCVKReader/Pods-ObjCVKReader.release.xcconfig"; sourceTree = "<group>"; };
+		38B3EE2C3C55E354113628B1 /* Pods-ObjCVKReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCVKReaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjCVKReaderTests/Pods-ObjCVKReaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		E0DC87F7E1106E53B32272F6 /* Pods-ObjCVKReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCVKReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjCVKReader/Pods-ObjCVKReader.debug.xcconfig"; sourceTree = "<group>"; };
+		E521DE962027C936000A213E /* NewsFeed+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewsFeed+CoreDataProperties.h"; sourceTree = "<group>"; };
+		E521DE972027C936000A213E /* NewsFeed+CoreDataClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewsFeed+CoreDataClass.h"; sourceTree = "<group>"; };
+		E521DE982027C936000A213E /* NewsFeed+CoreDataClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NewsFeed+CoreDataClass.m"; sourceTree = "<group>"; };
+		E521DE992027C936000A213E /* NewsFeed+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NewsFeed+CoreDataProperties.m"; sourceTree = "<group>"; };
+		E521DE9C2027D049000A213E /* VSReachabilityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSReachabilityManager.h; sourceTree = "<group>"; };
+		E521DE9D2027D049000A213E /* VSReachabilityManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSReachabilityManager.m; sourceTree = "<group>"; };
+		E521DE9F202851DB000A213E /* ObjCVKReader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ObjCVKReader-Bridging-Header.h"; sourceTree = "<group>"; };
+		E521DEA0202851DC000A213E /* VSScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSScrollView.swift; sourceTree = "<group>"; };
+		E521DEA320286540000A213E /* VSTourDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSTourDotView.h; sourceTree = "<group>"; };
+		E521DEA420286540000A213E /* VSTourDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSTourDotView.m; sourceTree = "<group>"; };
+		E521DEA620286F50000A213E /* VSPageControlHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VSPageControlHelper.swift; sourceTree = "<group>"; };
+		E536F7DC202616700066F623 /* NewsPhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsPhoto.h; sourceTree = "<group>"; };
+		E536F7DD202616700066F623 /* NewsPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsPhoto.m; sourceTree = "<group>"; };
+		E536F7E220272B790066F623 /* AuthControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthControllerViewController.h; sourceTree = "<group>"; };
+		E536F7E320272B790066F623 /* AuthControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthControllerViewController.m; sourceTree = "<group>"; };
+		E536F7E52027601E0066F623 /* VSNewsfeedDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VSNewsfeedDetailViewController.h; sourceTree = "<group>"; };
+		E536F7E62027601E0066F623 /* VSNewsfeedDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSNewsfeedDetailViewController.m; sourceTree = "<group>"; };
+		E5B3BF242027C7AE0010EB74 /* VKReader.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VKReader.xcdatamodel; sourceTree = "<group>"; };
+		E5F3D3EB1F670E7600A2AA46 /* ObjCVKReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCVKReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F3D3EF1F670E7600A2AA46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5F3D3F11F670E7600A2AA46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E5F3D3F21F670E7600A2AA46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E5F3D3F81F670E7600A2AA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E5F3D3FD1F670E7600A2AA46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E5F3D4001F670E7600A2AA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E5F3D4021F670E7600A2AA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5F3D4071F670E7600A2AA46 /* ObjCVKReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjCVKReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F3D40B1F670E7600A2AA46 /* ObjCVKReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCVKReaderTests.m; sourceTree = "<group>"; };
+		E5F3D40D1F670E7600A2AA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5F3D4191F671A3E00A2AA46 /* VSVKAuthenticator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSVKAuthenticator.h; sourceTree = "<group>"; };
+		E5F3D41A1F671A3E00A2AA46 /* VSVKAuthenticator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSVKAuthenticator.m; sourceTree = "<group>"; };
+		E5F3D41D1F671DD800A2AA46 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		E5F3D41E1F671DD800A2AA46 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		E5F3D4211F672BAF00A2AA46 /* Newsfeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Newsfeed.h; sourceTree = "<group>"; };
+		E5F3D4221F672BAF00A2AA46 /* Newsfeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Newsfeed.m; sourceTree = "<group>"; };
+		E5F3D4251F672DD500A2AA46 /* VSNewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSNewsModel.h; sourceTree = "<group>"; };
+		E5F3D4261F672DD500A2AA46 /* VSNewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSNewsModel.m; sourceTree = "<group>"; };
+		E5FB4FF61F67DD930094BC73 /* VSNewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSNewsViewController.h; sourceTree = "<group>"; };
+		E5FB4FF71F67DD930094BC73 /* VSNewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSNewsViewController.m; sourceTree = "<group>"; };
+		E5FB4FF91F67DE070094BC73 /* VSNewsPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSNewsPresenter.h; sourceTree = "<group>"; };
+		E5FB4FFA1F67DE070094BC73 /* VSNewsPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSNewsPresenter.m; sourceTree = "<group>"; };
+		E5FB4FFC1F67E0E30094BC73 /* NewsList.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NewsList.storyboard; sourceTree = "<group>"; };
+		E5FB4FFF1F67E5730094BC73 /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
+		E5FB50001F67E5730094BC73 /* NewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
+		E5FB50021F67E7880094BC73 /* NewsCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCellModel.h; sourceTree = "<group>"; };
+		E5FB50031F67E7880094BC73 /* NewsCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsCellModel.m; sourceTree = "<group>"; };
+		E5FB50081F693A190094BC73 /* LoadingIndicatorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingIndicatorCell.h; sourceTree = "<group>"; };
+		E5FB50091F693A190094BC73 /* LoadingIndicatorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingIndicatorCell.m; sourceTree = "<group>"; };
+		E6D421A2ACACBB0449C06E81 /* libPods-ObjCVKReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjCVKReader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2AA49FF74AD269C6D82FCE /* libPods-ObjCVKReaderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjCVKReaderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5F3D3E81F670E7600A2AA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3CEB2F80C61D0158AD369C9 /* libPods-ObjCVKReader.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5F3D4041F670E7600A2AA46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165BC2F97BA2FF24F8567AC4 /* libPods-ObjCVKReaderTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		858CA45ECC0BE8773FD0D155 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0DC87F7E1106E53B32272F6 /* Pods-ObjCVKReader.debug.xcconfig */,
+				11DA0D54CEED05240595839B /* Pods-ObjCVKReader.release.xcconfig */,
+				03A4D9C73D6E289D66BCF1A4 /* Pods-ObjCVKReaderTests.debug.xcconfig */,
+				38B3EE2C3C55E354113628B1 /* Pods-ObjCVKReaderTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB794F6F9BA534505E105DE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6D421A2ACACBB0449C06E81 /* libPods-ObjCVKReader.a */,
+				FF2AA49FF74AD269C6D82FCE /* libPods-ObjCVKReaderTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E521DEA82028870F000A213E /* PhotoScroll */ = {
+			isa = PBXGroup;
+			children = (
+				E521DEA320286540000A213E /* VSTourDotView.h */,
+				E521DEA420286540000A213E /* VSTourDotView.m */,
+				E521DEA0202851DC000A213E /* VSScrollView.swift */,
+				E521DEA620286F50000A213E /* VSPageControlHelper.swift */,
+			);
+			name = PhotoScroll;
+			sourceTree = "<group>";
+		};
+		E521DEA92028871F000A213E /* VKAuth */ = {
+			isa = PBXGroup;
+			children = (
+				E536F7E220272B790066F623 /* AuthControllerViewController.h */,
+				E536F7E320272B790066F623 /* AuthControllerViewController.m */,
+				E5F3D4191F671A3E00A2AA46 /* VSVKAuthenticator.h */,
+				E5F3D41A1F671A3E00A2AA46 /* VSVKAuthenticator.m */,
+			);
+			name = VKAuth;
+			sourceTree = "<group>";
+		};
+		E521DEAA20288739000A213E /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				E536F7E52027601E0066F623 /* VSNewsfeedDetailViewController.h */,
+				E536F7E62027601E0066F623 /* VSNewsfeedDetailViewController.m */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		E521DEAB2028875E000A213E /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				E521DE962027C936000A213E /* NewsFeed+CoreDataProperties.h */,
+				E521DE972027C936000A213E /* NewsFeed+CoreDataClass.h */,
+				E521DE982027C936000A213E /* NewsFeed+CoreDataClass.m */,
+				E521DE992027C936000A213E /* NewsFeed+CoreDataProperties.m */,
+				E5B3BF232027C7AE0010EB74 /* VKReader.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		E5F3D3E21F670E7600A2AA46 = {
+			isa = PBXGroup;
+			children = (
+				E5F3D3ED1F670E7600A2AA46 /* ObjCVKReader */,
+				E5F3D40A1F670E7600A2AA46 /* ObjCVKReaderTests */,
+				E5F3D3EC1F670E7600A2AA46 /* Products */,
+				858CA45ECC0BE8773FD0D155 /* Pods */,
+				DB794F6F9BA534505E105DE2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E5F3D3EC1F670E7600A2AA46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5F3D3EB1F670E7600A2AA46 /* ObjCVKReader.app */,
+				E5F3D4071F670E7600A2AA46 /* ObjCVKReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5F3D3ED1F670E7600A2AA46 /* ObjCVKReader */ = {
+			isa = PBXGroup;
+			children = (
+				E521DEAB2028875E000A213E /* CoreData */,
+				E5F3D4241F672DBD00A2AA46 /* News Feed */,
+				E5F3D4201F672B9300A2AA46 /* Entity */,
+				E5F3D41C1F671DAE00A2AA46 /* Login */,
+				E5F3D3F11F670E7600A2AA46 /* AppDelegate.h */,
+				E5F3D3F21F670E7600A2AA46 /* AppDelegate.m */,
+				E5F3D3F71F670E7600A2AA46 /* Main.storyboard */,
+				E5F3D3FD1F670E7600A2AA46 /* Assets.xcassets */,
+				E5F3D3FF1F670E7600A2AA46 /* LaunchScreen.storyboard */,
+				E5F3D4021F670E7600A2AA46 /* Info.plist */,
+				E5F3D3EE1F670E7600A2AA46 /* Supporting Files */,
+			);
+			path = ObjCVKReader;
+			sourceTree = "<group>";
+		};
+		E5F3D3EE1F670E7600A2AA46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E521DEA82028870F000A213E /* PhotoScroll */,
+				E521DEA92028871F000A213E /* VKAuth */,
+				E5F3D3EF1F670E7600A2AA46 /* main.m */,
+				E521DE9C2027D049000A213E /* VSReachabilityManager.h */,
+				E521DE9D2027D049000A213E /* VSReachabilityManager.m */,
+				E521DE9F202851DB000A213E /* ObjCVKReader-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5F3D40A1F670E7600A2AA46 /* ObjCVKReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5F3D40B1F670E7600A2AA46 /* ObjCVKReaderTests.m */,
+				E5F3D40D1F670E7600A2AA46 /* Info.plist */,
+			);
+			path = ObjCVKReaderTests;
+			sourceTree = "<group>";
+		};
+		E5F3D41C1F671DAE00A2AA46 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E5F3D41D1F671DD800A2AA46 /* LoginViewController.h */,
+				E5F3D41E1F671DD800A2AA46 /* LoginViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		E5F3D4201F672B9300A2AA46 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				E5F3D4211F672BAF00A2AA46 /* Newsfeed.h */,
+				E5F3D4221F672BAF00A2AA46 /* Newsfeed.m */,
+				E536F7DC202616700066F623 /* NewsPhoto.h */,
+				E536F7DD202616700066F623 /* NewsPhoto.m */,
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+		E5F3D4241F672DBD00A2AA46 /* News Feed */ = {
+			isa = PBXGroup;
+			children = (
+				E5FB4FFE1F67E54F0094BC73 /* Cells */,
+				E5F3D4251F672DD500A2AA46 /* VSNewsModel.h */,
+				E5F3D4261F672DD500A2AA46 /* VSNewsModel.m */,
+				E5FB4FF61F67DD930094BC73 /* VSNewsViewController.h */,
+				E5FB4FF71F67DD930094BC73 /* VSNewsViewController.m */,
+				E5FB4FF91F67DE070094BC73 /* VSNewsPresenter.h */,
+				E5FB4FFA1F67DE070094BC73 /* VSNewsPresenter.m */,
+				E5FB4FFC1F67E0E30094BC73 /* NewsList.storyboard */,
+				E521DEAA20288739000A213E /* Detail */,
+			);
+			name = "News Feed";
+			sourceTree = "<group>";
+		};
+		E5FB4FFE1F67E54F0094BC73 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E5FB4FFF1F67E5730094BC73 /* NewsCell.h */,
+				E5FB50001F67E5730094BC73 /* NewsCell.m */,
+				E5FB50021F67E7880094BC73 /* NewsCellModel.h */,
+				E5FB50031F67E7880094BC73 /* NewsCellModel.m */,
+				E5FB50081F693A190094BC73 /* LoadingIndicatorCell.h */,
+				E5FB50091F693A190094BC73 /* LoadingIndicatorCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5F3D3EA1F670E7600A2AA46 /* ObjCVKReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5F3D4101F670E7600A2AA46 /* Build configuration list for PBXNativeTarget "ObjCVKReader" */;
+			buildPhases = (
+				CC432CAD8C8FCDAFACE69BE2 /* [CP] Check Pods Manifest.lock */,
+				E5F3D3E71F670E7600A2AA46 /* Sources */,
+				E5F3D3E81F670E7600A2AA46 /* Frameworks */,
+				E5F3D3E91F670E7600A2AA46 /* Resources */,
+				00E7E421914939D4C7BE6F9F /* [CP] Embed Pods Frameworks */,
+				6E88ADDF6CE0B0A614C49E61 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjCVKReader;
+			productName = ObjCVKReader;
+			productReference = E5F3D3EB1F670E7600A2AA46 /* ObjCVKReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5F3D4061F670E7600A2AA46 /* ObjCVKReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5F3D4131F670E7600A2AA46 /* Build configuration list for PBXNativeTarget "ObjCVKReaderTests" */;
+			buildPhases = (
+				32AC43CA27E7817B4E8F39F8 /* [CP] Check Pods Manifest.lock */,
+				E5F3D4031F670E7600A2AA46 /* Sources */,
+				E5F3D4041F670E7600A2AA46 /* Frameworks */,
+				E5F3D4051F670E7600A2AA46 /* Resources */,
+				270A0069AF1A96393C302B23 /* [CP] Embed Pods Frameworks */,
+				4B907CA1CF9AA20E0FBFA058 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5F3D4091F670E7600A2AA46 /* PBXTargetDependency */,
+			);
+			name = ObjCVKReaderTests;
+			productName = ObjCVKReaderTests;
+			productReference = E5F3D4071F670E7600A2AA46 /* ObjCVKReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5F3D3E31F670E7600A2AA46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Сергей Веселовский";
+				TargetAttributes = {
+					E5F3D3EA1F670E7600A2AA46 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RJD93KSR37;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					E5F3D4061F670E7600A2AA46 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2YGGD696VB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E5F3D3EA1F670E7600A2AA46;
+					};
+				};
+			};
+			buildConfigurationList = E5F3D3E61F670E7600A2AA46 /* Build configuration list for PBXProject "ObjCVKReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5F3D3E21F670E7600A2AA46;
+			productRefGroup = E5F3D3EC1F670E7600A2AA46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5F3D3EA1F670E7600A2AA46 /* ObjCVKReader */,
+				E5F3D4061F670E7600A2AA46 /* ObjCVKReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5F3D3E91F670E7600A2AA46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F3D4011F670E7600A2AA46 /* LaunchScreen.storyboard in Resources */,
+				E5F3D3FE1F670E7600A2AA46 /* Assets.xcassets in Resources */,
+				E5F3D3F91F670E7600A2AA46 /* Main.storyboard in Resources */,
+				E5FB4FFD1F67E0E30094BC73 /* NewsList.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5F3D4051F670E7600A2AA46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00E7E421914939D4C7BE6F9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjCVKReader/Pods-ObjCVKReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		270A0069AF1A96393C302B23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjCVKReaderTests/Pods-ObjCVKReaderTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32AC43CA27E7817B4E8F39F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjCVKReaderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B907CA1CF9AA20E0FBFA058 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjCVKReaderTests/Pods-ObjCVKReaderTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E88ADDF6CE0B0A614C49E61 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ObjCVKReader/Pods-ObjCVKReader-resources.sh",
+				"$PODS_CONFIGURATION_BUILD_DIR/VK-ios-sdk/VKSdkResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ObjCVKReader/Pods-ObjCVKReader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC432CAD8C8FCDAFACE69BE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjCVKReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5F3D3E71F670E7600A2AA46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E536F7DE202616700066F623 /* NewsPhoto.m in Sources */,
+				E521DE9B2027C936000A213E /* NewsFeed+CoreDataProperties.m in Sources */,
+				E5F3D3F31F670E7600A2AA46 /* AppDelegate.m in Sources */,
+				E5FB50041F67E7880094BC73 /* NewsCellModel.m in Sources */,
+				E5F3D41B1F671A3E00A2AA46 /* VSVKAuthenticator.m in Sources */,
+				E521DE9E2027D049000A213E /* VSReachabilityManager.m in Sources */,
+				E536F7E72027601E0066F623 /* VSNewsfeedDetailViewController.m in Sources */,
+				E5F3D4231F672BAF00A2AA46 /* Newsfeed.m in Sources */,
+				E5F3D3F01F670E7600A2AA46 /* main.m in Sources */,
+				E5F3D4271F672DD500A2AA46 /* VSNewsModel.m in Sources */,
+				E521DE9A2027C936000A213E /* NewsFeed+CoreDataClass.m in Sources */,
+				E5B3BF252027C7AE0010EB74 /* VKReader.xcdatamodeld in Sources */,
+				E5FB4FF81F67DD930094BC73 /* VSNewsViewController.m in Sources */,
+				E521DEA720286F50000A213E /* VSPageControlHelper.swift in Sources */,
+				E5FB500A1F693A190094BC73 /* LoadingIndicatorCell.m in Sources */,
+				E5FB4FFB1F67DE070094BC73 /* VSNewsPresenter.m in Sources */,
+				E521DEA520286540000A213E /* VSTourDotView.m in Sources */,
+				E5FB50011F67E5730094BC73 /* NewsCell.m in Sources */,
+				E536F7E420272B790066F623 /* AuthControllerViewController.m in Sources */,
+				E521DEA1202851DC000A213E /* VSScrollView.swift in Sources */,
+				E5F3D41F1F671DD800A2AA46 /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5F3D4031F670E7600A2AA46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F3D40C1F670E7600A2AA46 /* ObjCVKReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5F3D4091F670E7600A2AA46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5F3D3EA1F670E7600A2AA46 /* ObjCVKReader */;
+			targetProxy = E5F3D4081F670E7600A2AA46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E5F3D3F71F670E7600A2AA46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5F3D3F81F670E7600A2AA46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E5F3D3FF1F670E7600A2AA46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5F3D4001F670E7600A2AA46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5F3D40E1F670E7600A2AA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5F3D40F1F670E7600A2AA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E5F3D4111F670E7600A2AA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0DC87F7E1106E53B32272F6 /* Pods-ObjCVKReader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = RJD93KSR37;
+				INFOPLIST_FILE = ObjCVKReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.saveselovskiy.ObjCVKReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ObjCVKReader/ObjCVKReader-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E5F3D4121F670E7600A2AA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11DA0D54CEED05240595839B /* Pods-ObjCVKReader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = RJD93KSR37;
+				INFOPLIST_FILE = ObjCVKReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.saveselovskiy.ObjCVKReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ObjCVKReader/ObjCVKReader-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E5F3D4141F670E7600A2AA46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03A4D9C73D6E289D66BCF1A4 /* Pods-ObjCVKReaderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2YGGD696VB;
+				INFOPLIST_FILE = ObjCVKReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.saveselovskiy.ObjCVKReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjCVKReader.app/ObjCVKReader";
+			};
+			name = Debug;
+		};
+		E5F3D4151F670E7600A2AA46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38B3EE2C3C55E354113628B1 /* Pods-ObjCVKReaderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2YGGD696VB;
+				INFOPLIST_FILE = ObjCVKReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.saveselovskiy.ObjCVKReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjCVKReader.app/ObjCVKReader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5F3D3E61F670E7600A2AA46 /* Build configuration list for PBXProject "ObjCVKReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5F3D40E1F670E7600A2AA46 /* Debug */,
+				E5F3D40F1F670E7600A2AA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5F3D4101F670E7600A2AA46 /* Build configuration list for PBXNativeTarget "ObjCVKReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5F3D4111F670E7600A2AA46 /* Debug */,
+				E5F3D4121F670E7600A2AA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5F3D4131F670E7600A2AA46 /* Build configuration list for PBXNativeTarget "ObjCVKReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5F3D4141F670E7600A2AA46 /* Debug */,
+				E5F3D4151F670E7600A2AA46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E5B3BF232027C7AE0010EB74 /* VKReader.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E5B3BF242027C7AE0010EB74 /* VKReader.xcdatamodel */,
+			);
+			currentVersion = E5B3BF242027C7AE0010EB74 /* VKReader.xcdatamodel */;
+			path = VKReader.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E5F3D3E31F670E7600A2AA46 /* Project object */;
+}
